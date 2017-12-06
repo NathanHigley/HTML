@@ -27,21 +27,27 @@
 	a:hover {
 		color:lightgrey;
 	}
-	img {
+	.i {
 		height:90px;
 		width:150px;
 	}
-	img:hover {
-		opacity:0.75;
+	.i:hover {
+		opacity:0.5;
 	}
-	.m {
-		display:inline;
-		padding:2.5%;
+	.f {
+		border: 2px solid black;
+		border-radius: 5px;
+		background-color:darkgrey;
+		text-align:center;
+		color:#505050;
+		font-size:20;
+		font-family:Helvetica;
+		font-weight:bold;
 	}
 </style>
 	<body style="background-color:gray;">
 		<header style="text-align:center;">
-			<div class="h"><a href="https://github.com/NathanHigley?tab=repositories">[REPO]</a></div>
+			<div class="h"><a target="_blank"href="https://github.com/NathanHigley?tab=repositories">[REPO]</a></div>
 			<div class="h"><a href="index">[INDEX]</a></div>
 			<div class="h"><a href="img">[IMG]</a></div>
 		</header>
@@ -52,17 +58,17 @@
 			<div class="e">
 				<h1 style="font-family:Times New Roman;">WELCOME</h1>
 				<hr style="border-color:black;border-width:1px;border-style:solid;"/>
-				<p class="">Here, you can find anything I've ever done of significant value.</p>
-				<p class="">Unless you don't, because it wasn't significant.</p>
+				<p>Here, you can find anything I've ever done of significant value.</p>
+				<p>Unless you don't, because it wasn't significant.</p>
 				<p style="font-size:8;">In fact, there isn't anything here yet.</p>
 			</div>
 		</center>
 		<br />
 		<center>
-			<div class="m"><a href=""><img style="height:90px;width:150px;"src="logo.png"/></a></div>
+			<div style="display:inline;padding:2.5%;"><a href=""><img class="i" src="logo.png"/></a></div>
 		</center>
-		<footer style="position: absolute;right:0;bottom:0;left:0;text-align:right;">
-			<p class="h"style="color:#505050;font-size:20;font-family:Helvetica;font-weight:bold;">nathan@jhigley.com</p>
+		<footer style="width:20vw;position:absolute;right:0;bottom:0;text-align:right;">
+			<p class="f">nathan@jhigley.com</p>
 		</footer>
 	</body>
 </html>

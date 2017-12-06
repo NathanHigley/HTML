@@ -15,7 +15,8 @@
 		background-color:darkgrey;
 		text-align:center;
 		width:40%;
-		padding:1%
+		padding:1%;
+		display:inline-block;
 	}
 	a {
 		color:#505050;
@@ -27,21 +28,33 @@
 	a:hover {
 		color:lightgrey;
 	}
-	img {
+	.i {
 		height:90px;
 		width:150px;
 	}
-	img:hover {
-		opacity:0.75;
+	.i:hover {
+		opacity:0.5;
 	}
-	.m {
-		display:inline;
-		padding:2.5%;
+	.f {
+		border: 2px solid black;
+		border-radius: 5px;
+		background-color:darkgrey;
+		text-align:center;
+		color:#505050;
+		font-size:20;
+		font-family:Helvetica;
+		font-weight:bold;
+	}
+	.c {
+		border: 2px solid black;
+		border-radius: 5px;
+		background-color:gray;
+		display:inline-block;
 	}
 </style>
 	<body style="background-color:gray;">
 		<header style="text-align:center;">
-			<div class="h"><a href="https://github.com/NathanHigley?tab=repositories">[REPO]</a></div>
+			<div class="h"><a target="_blank"href="https://github.com/NathanHigley?tab=repositories">[REPO]</a></div>
 			<div class="h"><a href="index">[INDEX]</a></div>
 			<div class="h"><a href="img">[IMG]</a></div>
 		</header>
@@ -50,15 +63,20 @@
 		<br />
 		<center>
 			<div class="e">
-			<img src="logo.png">
+				<div class="c">
+					<img style="height:50px;width:75px;"src="logo.png"/>
+				</div>
+				<div class="c">
+					<img style="height:50px;width:75px;"src="logo.png"/>
+				</div>
 			</div>
 		</center>
 		<br />
 		<center>
-			<div class="m"><a href=""><img style="height:90px;width:150px;"src="logo.png"/></a></div>
+			<div style="display:inline;padding:2.5%;"><a href=""><img class="i" src="logo.png"/></a></div>
 		</center>
-		<footer style="position: absolute;right:0;bottom:0;left:0;text-align:right;">
-			<p class="h"style="color:#505050;font-size:20;font-family:Helvetica;font-weight:bold;">nathan@jhigley.com</p>
+		<footer style="width:20vw;position:absolute;right:0;bottom:0;text-align:right;">
+			<p class="f">nathan@jhigley.com</p>
 		</footer>
 	</body>
 </html>
