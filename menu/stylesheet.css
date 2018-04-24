@@ -1,0 +1,31 @@
+body{
+	background-color:lightgrey;
+}
+h1 {
+	text-align:center;
+}
+nav {
+	text-align:center;
+}
+a {
+	color:black;
+	text-decoration:none;
+}
+a:hover{
+color:grey;}
+li {
+	font-size:20px;
+	display:inline-block;
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color:lavender;
+	width:20%;
+}
+
+.a {
+	border: 2px solid black;
+	border-radius: 5px;
+	background-color:lavender;
+	text-align:center;
+	width:60%;
+}
